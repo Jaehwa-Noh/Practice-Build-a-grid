@@ -5,6 +5,7 @@ import androidx.activity.ComponentActivity
 import androidx.activity.compose.setContent
 import androidx.compose.foundation.Image
 import androidx.compose.foundation.layout.Column
+import androidx.compose.foundation.layout.PaddingValues
 import androidx.compose.foundation.layout.Row
 import androidx.compose.foundation.layout.fillMaxSize
 import androidx.compose.foundation.layout.padding
@@ -54,6 +55,7 @@ fun CourseGrid(modifier: Modifier = Modifier) {
     val topicLists = DataSource.topics
     LazyVerticalGrid(
         columns = GridCells.Fixed(2),
+        contentPadding = PaddingValues(4.dp),
         modifier = modifier
     ) {
         items(topicLists.size) { index ->
@@ -67,7 +69,10 @@ fun TopicCard(
     topic: Topic,
     modifier: Modifier = Modifier
 ) {
-    Card(modifier = modifier) {
+    Card(
+        modifier = modifier
+            .padding(4.dp)
+    ) {
         Row {
             Image(
                 painter = painterResource(topic.drawableResourceId),
