@@ -79,6 +79,7 @@ fun TopicCard(
             ) {
                 Text(
                     text = stringResource(id = topic.stringResourceId),
+                    style = MaterialTheme.typography.bodyMedium,
                     modifier = Modifier.padding(bottom = 8.dp)
                 )
                 Row {
@@ -87,7 +88,10 @@ fun TopicCard(
                         contentDescription = null,
                         modifier = Modifier.padding(end = 8.dp)
                     )
-                    Text(text = topic.courseNumber.toString())
+                    Text(
+                        text = topic.courseNumber.toString(),
+                        style = MaterialTheme.typography.labelMedium
+                    )
                 }
             }
         }
