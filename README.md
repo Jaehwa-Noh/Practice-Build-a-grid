@@ -21,6 +21,9 @@ You will need the following resources to compolete the code for these practice p
    
 • [Topic images](https://github.com/google-developer-training/basic-android-kotlin-compose-training-courses/blob/main/topics.zip). These images represent each topic in the list.([주제 이미지](https://github.com/google-developer-training/basic-android-kotlin-compose-training-courses/blob/main/topics.zip). 이 이미지들은 리스트의 각 주제를 나타내는 데 사용됩니다.)   
 • [ic_grain.xml](https://raw.githubusercontent.com/android/compose-samples/main/Owl/app/src/main/res/drawable/ic_grain.xml). This is the decorative icon that appears next to the number of courses in the topic ([ic_grain.xml](https://raw.githubusercontent.com/android/compose-samples/main/Owl/app/src/main/res/drawable/ic_grain.xml). 주제 안의 과목 개수를 나타내는 데 사용되는 장식 아이콘입니다.)
+   
+All photos by Romain Guy. All photos are licensed under CC0 1.0 Universal: https://creativecommons.org/publicdomain/zero/1.0/   
+모든 사진은 Romain Guy 소유입니다. 모든 사진에는 CC0 1.0 Universal 라이선스가 적용되어 있습니다.(https://creativecommons.org/publicdomain/zero/1.0/)
 
 ## UI specifications (UI 명세서)
 ### Topic grid item (주제 격자 내용)
