@@ -43,3 +43,12 @@ You will need the following resources to compolete the code for these practice p
 ## Anything thinks (생각할 거리)
 [lists and grids](https://developer.android.com/jetpack/compose/lists)   
 • Compose has two composables to show the grid. one is Lazy lists, another is lazy grids. Let's thinking of Which one is appropriated to make this practice app? lazy column is for large of column with performance issue, and lazy grids is for displaying items in a grid. so I pick the lazy grids. (컴포우즈에는 격자를 구현할 수 있는 두 개의 컴포우저블이 있습니다. 하나는 lazy lists이고, 하나는 lazy grids입니다. 어떤걸 선택해야하는지 생각해봅시다. lazy column은 많은 데이터를 보여주는 상황에서 성능 문제가 발생할 때 사용합니다. lazy grids는 내용들을 격자 모양으로 보여줄 때 사용합니다. 그래서 lazy grids를 사용하기로 했습니다.)
+
+
+# My Result (내 결과물)
+## Apps on device (프로젝트 실행 이미지)
+| Compose | SwiftUI |
+| :---------------: | :---------------: |
+| <img src="https://github.com/shwoghk14/Practice-Build-a-grid/assets/48680511/281fd192-a026-4205-9743-32b2079f5afb" width="300" /> | |
+
+
