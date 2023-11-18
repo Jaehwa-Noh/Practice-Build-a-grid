@@ -6,7 +6,8 @@ This main branch is the main directory.
 
 there are 2 additional branchs for 1 practice, Compose and SwiftUI.   
    
-• [Compose branch](https://github.com/shwoghk14/Practice-Build-a-grid/tree/compose-build-a-grid)
+• [Compose branch](https://github.com/shwoghk14/Practice-Build-a-grid/tree/compose-build-a-grid)   
+• [SwiftUI branch](https://github.com/shwoghk14/Practice-Build-a-grid/tree/swiftui-build-a-grid)   
  
 ---
 연습이 장인을 만든다.   
@@ -14,7 +15,8 @@ there are 2 additional branchs for 1 practice, Compose and SwiftUI.
 
 1개의 연습에 해당하는 추가적인 Compose와 SwiftUI에 해당하는 2개의 브랜치가 있습니다.   
    
-• [컴포우즈 브랜치](https://github.com/shwoghk14/Practice-Build-a-grid/tree/compose-build-a-grid)
+• [컴포우즈 브랜치](https://github.com/shwoghk14/Practice-Build-a-grid/tree/compose-build-a-grid)   
+• [스위프트유아이 브랜치](https://github.com/shwoghk14/Practice-Build-a-grid/tree/swiftui-build-a-grid)   
 
 ## Resources (재료)
 You will need the following resources to compolete the code for these practice problems (연습 문제를 풀기 위해서는 아래의 재료들이 필요합니다.)   
@@ -52,6 +54,6 @@ All photos by Romain Guy. All photos are licensed under CC0 1.0 Universal: https
 ## Apps on device (프로젝트 실행 이미지)
 | Compose | SwiftUI |
 | :---------------: | :---------------: |
-| <img src="https://github.com/shwoghk14/Practice-Build-a-grid/assets/48680511/281fd192-a026-4205-9743-32b2079f5afb" width="300" /> | |
+| <img src="https://github.com/shwoghk14/Practice-Build-a-grid/assets/48680511/281fd192-a026-4205-9743-32b2079f5afb" width="300" /> | <img src="https://github.com/shwoghk14/Practice-Build-a-grid/assets/48680511/a4934ac6-93c7-47ab-a5b9-10476a8ceb9a" width="300" /> |
 
 
