@@ -9,13 +9,19 @@ import SwiftUI
 
 struct ContentView: View {
     var body: some View {
-        VStack {
-            Image(systemName: "globe")
-                .imageScale(.large)
-                .foregroundStyle(.tint)
-            Text("Hello, world!")
+        GridView()
+    }
+}
+
+struct GridView: View {
+    private let topics = DataSource().topics
+    
+    var body: some View {
+        LazyVGrid(columns: [GridItem(), GridItem()]) {
+            ForEach(topics) { topic in
+                Text(topic.stringResource)
+            }
         }
-        .padding()
     }
 }
 
