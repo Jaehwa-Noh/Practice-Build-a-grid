@@ -17,14 +17,16 @@ struct GridView: View {
     private let topics = DataSource().topics
     
     var body: some View {
-        VStack {
-            LazyVGrid(columns: [GridItem(spacing: 8), GridItem(spacing: 0)], spacing: 8) {
-                ForEach(topics) { topic in
-                    CardView(topic: topic)
+        ScrollView {
+            VStack {
+                LazyVGrid(columns: [GridItem(spacing: 8), GridItem(spacing: 0)], spacing: 8) {
+                    ForEach(topics) { topic in
+                        CardView(topic: topic)
+                    }
                 }
+                .padding(8)
+                Spacer()
             }
-            .padding(8)
-            Spacer()
         }
     }
 }
