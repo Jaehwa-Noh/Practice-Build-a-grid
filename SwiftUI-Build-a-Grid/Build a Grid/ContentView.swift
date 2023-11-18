@@ -17,10 +17,13 @@ struct GridView: View {
     private let topics = DataSource().topics
     
     var body: some View {
-        LazyVGrid(columns: [GridItem(), GridItem()]) {
-            ForEach(topics) { topic in
-                CardView(topic: topic)
+        VStack {
+            LazyVGrid(columns: [GridItem(), GridItem()], spacing: 8) {
+                ForEach(topics) { topic in
+                    CardView(topic: topic)
+                }
             }
+            Spacer()
         }
     }
 }
@@ -54,6 +57,7 @@ struct CardView: View {
             }
         }
         .background(Color("CardBackground"))
+        .clipShape(RoundedRectangle(cornerRadius: 12))
     }
 }
 
